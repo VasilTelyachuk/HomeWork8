@@ -16,11 +16,11 @@ body {
     background-position: center;
 } */
 header {
-    background-image: url(/img/Vector\ Smart\ Object.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* background-color: rgba(26, 25, 21, 0.35); */
+  background-image: url(img/Vector\ Smart\ Object.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-color: rgba(26, 25, 21, 0.35); */
 }
 .conteiner {
   background-color: rgba(26, 25, 21, 0.35);
@@ -139,19 +139,19 @@ main {
   border: 3px solid #fff;
 }
 .bradley {
-  background-image: url(/img/1.1.png);
+  background-image: url(img/1.1.png);
   background-color: #ff4e50;
 }
 .heather {
-  background-image: url(/img/2.2.png);
+  background-image: url(img/2.2.png);
   background-color: #ffa507;
 }
 .lucas {
-  background-image: url(/img/3.3.png);
+  background-image: url(img/3.3.png);
   background-color: #1cd7ad;
 }
 .hunter {
-  background-image: url(/img/4.4.png);
+  background-image: url(img/4.4.png);
   background-color: #4e73db;
 }
 .name {
@@ -181,7 +181,7 @@ main {
   }
 }
 @media (min-width: 768px) {
-    /* .wrap {
+  /* .wrap {
         width: 660px;
     } */
   .conteiner {
@@ -243,14 +243,14 @@ main {
   }
 }
 @media (min-width: 1200px) {
-    /* .wrap {
+  /* .wrap {
         width: 940px;
     } */
   .conteiner {
     width: 940px;
   }
   main {
-      margin-bottom: 73px;
+    margin-bottom: 73px;
   }
   .menu-partners {
     display: flex;
