@@ -6,34 +6,42 @@ body {
   color: #fff;
 }
 .wrapper {
-  width: 300px;
   padding: 0px 10px;
   margin: auto;
 }
-.header-box {
+header {
   background-image: url(/img/Vector\ Smart\ Object.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
+.conteiner {
+  background-color: rgba(26, 25, 21, 0.35);
+  width: 300px;
+  margin: auto;
+  margin-bottom: 67px;
+}
+
 .header-menu {
   display: flex;
   justify-content: center;
   list-style: none;
-  padding: 0px;
-  margin: 0px;
+  padding: 34px 0px 0px 0px;
+  margin: 0px 0px 128px 0px;
 }
 .log-item:not(:nth-child(2n)) {
-    margin-right: 38px;
+  margin-right: 38px;
 }
 .log-links {
   text-decoration: none;
   color: #fff;
-  }
+}
 .log-links:hover {
-border: 1px solid #fff ;
-width: 90px;
-height: 38px;
-border-radius: 12px;
+  border: 2px solid #fff;
+  width: 92px;
+  height: 36px;
+  padding: 12px 18px 10px 18px;
+  border-radius: 22px;
 }
 .logo {
   display: block;
@@ -42,6 +50,7 @@ border-radius: 12px;
   text-transform: uppercase;
   text-align: center;
   font-size: 20px;
+  margin-bottom: 33px;
 }
 .box-title {
   display: flex;
@@ -50,18 +59,108 @@ border-radius: 12px;
 }
 .title {
   text-transform: uppercase;
-  margin: 0px;
+  margin: 0px 0px 18px 0px;
   text-align: center;
   font-size: 30px;
   color: #fff;
 }
 .info {
-    font-family: "Roboto";
-    font-size: 18px;
-    font-weight: 300;
-    color: #fff;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
 }
 .share-key {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 154px;
+  background-color: #ff4e50;
+  padding: 13px 40px 13px 40px;
+  border-radius: 22px;
 }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 56px;
+}
+.title-text {
+  color: #333333;
+  text-align: center;
+  font-size: 22px;
+  margin: 0px;
+  margin-bottom: 18px;
+}
+.menu-partners {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.member-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.member-item:not(:nth-child(5n)) {
+    margin-bottom: 28px;
+}
+.image-box {
+    display: flex;
+    position: relative;
+    margin-bottom: 18px;
+}
+.selfi {
+    
+  
+}
+.icon {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 35px;
+    min-height: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+}
+.bradley {
+    background-image: url(/img/1.1.png);
+    background-color:  #ff4e50;
+}
+.heather {
+    background-image: url(/img/2.2.png);
+    background-color: #ffa507;
+}
+.lucas {
+    background-image: url(/img/3.3.png);
+    background-color: #1cd7ad;
+}
+.hunter {
+    background-image: url(/img/4.4.png);
+    background-color: #4e73db;
+}
+.name {
+  text-decoration: none;
+  color: #333333;
+  margin-bottom: 19px;
+}
+.biography {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin: 0px;
+  text-align: center;
+  color: #666666;
+}
+.btn {
+    color: #ff4e50;
+    border-style: none;
+    background-color: white;
+    border: 2px solid #ff4e50;
+    padding: 10px 74px 10px 74px;
+    border-radius: 22px;
+    }
